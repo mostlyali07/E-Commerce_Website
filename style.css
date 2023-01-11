@@ -350,8 +350,8 @@ button.white {
   background-image: url(/img/banner/b4.jpg);
 }
 #banner3 .banner-box3 {
-    background-image: url(/img/banner/b18.jpg);
-  }
+  background-image: url(/img/banner/b18.jpg);
+}
 #banner3 h2 {
   color: #fff;
   font-weight: 900;
@@ -362,4 +362,55 @@ button.white {
   color: #ec544e;
   font-weight: 800;
   font-size: 22px;
+}
+
+#newsletter {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+  background-image: url("/img/banner/b14.png");
+  background-repeat: no-repeat;
+  background-position: 20% 30%;
+  background-color: #041e42;
+}
+#newsletter h4 {
+  font-size: 32px;
+  font-weight: 600;
+  color: #fff;
+}
+#newsletter p {
+  font-size: 20px;
+  font-weight: 600;
+  color: #819ea0;
+}
+
+#newsletter p span {
+  color: #ffbd27;
+}
+
+#newsletter input {
+  height: 3.125rem;
+  padding: 0 1.25em;
+  font-size: 18px;
+  width: 100%;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  outline: none;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+#newsletter button {
+  background-color: #088178;
+  color: #fff;
+  white-space: nowrap;
+  border-top-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+#newsletter .form {
+  display: flex;
+  width: 40%;
+}
+input::placeholder {
+  font-family: "Josefin Sans", sans-serif;
 }
